@@ -1,10 +1,10 @@
 const cache = new Map();
 
-export function getFromCache(url: String): any | undefined {
+export function getFromCache(url: string): any | undefined {
     return cache.get(url);
 };
 
-export function saveToCache(url: String, data: any): void {
+export function saveToCache(url: string, data: any): void {
     cache.set(url, data);
 };
 
