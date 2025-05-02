@@ -10,4 +10,5 @@ export function saveToCache(url: string, data: any): void {
 
 export function clearCache(): void {
     cache.clear();
+    console.log('Cache cleared');
 };
